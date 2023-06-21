@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&family=Oswald&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+header a {
+    color: white;
+    text-decoration: none; 
+}
+
+.nav-portfolio {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.nav-portfolio li a:hover,
+.nav-portfolio a.active {
+    color: #a069d6; 
+}
+
+.contact {
+    font-size: 25px;
+    padding-top: 18vh;
+    text-align: center;
+}
+
+.contact span {
+    color: purple;
+    text-transform: uppercase;
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px; 
+    padding-top: 1vh;
+    padding-bottom: 1.5vh;
+}
+
+.contact form .input-box .input-field input,
+.contact form .textarea-field textarea {
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    border: 3px solid purple;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact form .input-box .input-field input::placeholder,
+.contact form .textarea-field textarea::placeholder {
+    color: white;
+}
+
+.contact form .textarea-field {
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.btn-box .btn{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: transparent;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-bottom: .3vh;
+    border: 3px solid purple;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: purple;
+
+}
+

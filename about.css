@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.logo {
+    font-size: 25px;
+    
+}
+
+header a {
+    color: white;
+    text-decoration: none; 
+}
+
+.nav-portfolio {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.nav-portfolio li a:hover,
+.nav-portfolio a.active {
+    color: #a069d6; 
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+    padding-top: 15vh;
+}
+
+.about span {
+    color:purple;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+
+.about-img {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.about-img img {
+    width: 30%;
+    border: 5px solid purple;
+    border-radius: 100%;
+}
+
+h3 {
+     display: flex;
+}
+
+.about-content {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 2vh;
+}
+
+.button-box {
+    padding-right: 50vw;
+    text-transform: uppercase;
+}
+
+.button {
+    color: purple;
+}
+
+
+
